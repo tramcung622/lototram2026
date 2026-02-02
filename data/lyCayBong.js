@@ -1,8 +1,10 @@
 /**
- * Lý cây bông – câu lô tô có lời (số 1–20)
- * Mỗi số: đoạn lời/verse rồi kết "Con số X, con số X."
+ * CÂU LÔ TÔ (bản gộp) – chỉ giữ câu có lời / câu dài.
+ * - Đã gộp từ: `lyCayBong.js` + `overridePhrases.js` + các câu “không đơn giản” trong `cauLoto.js`
+ * - Các câu ngắn đơn giản kiểu “con gì/đếm số…” đã bị loại bỏ.
  */
-export const lyCayBong1Den20 = {
+export const lotoPhrases = {
+  // 1–20 (Lý cây bông)
   1: `Í nhột í nhột í nhột
 Con số 1, con số 1.`,
 
@@ -189,4 +191,255 @@ Lòng cầu mong em đậu bến cho yên một bóng thuyền
 Lứa đôi tình duyên còn chưa lưu luyến
 Sợ người ta đến em khóc sau bao lời khuyên
 Con 20, con 20.`,
+
+  // 21–90 (bổ sung để đủ key 1–90; mẫu câu hội chợ nhiều dòng)
+  21: `Tùng tùng tùng… bà con nghe cho rõ
+Số 21 về rồi, may mắn nở hoa.
+Số 21.`,
+  22: `Lắng tai nghe tiếng trống vang rền
+Số 22 xuất hiện, ai hên thì trúng.
+Số 22.`,
+  23: `Quay quay quay… rồi dừng!
+Số 23 lên bảng, chúc bà con vui.
+Số 23.`,
+  24: `Hội chợ rộn ràng, trống giục liên hồi
+Số 24 ra mặt, nắm cơ hội nha.
+Số 24.`,
+  25: `Một vòng rồi một vòng, tim ai cũng hồi hộp
+Số 25 xuất hiện, cười lên bà con.
+Số 25.`,
+  26: `Nghe tiếng trống dồn dập, chuẩn bị đón số
+Số 26 đây rồi, lộc tới cửa nhà.
+Số 26.`,
+
+  // Các số “có lời” bổ sung (từ overridePhrases + cauLoto custom)
+  27: `Anh đi vào sâu tim em
+Giết chết yêu thương ở đây
+Sẽ còn mãi nơi này
+Hình dung một người thay đổi
+Anh yêu vội thế, cứ thích buông lời trêu đùa
+Chẳng biết đâu thật tâm là ngọt ngào hay lừa dối
+Đến bây giờ sau cơn mê em mới thấu ra
+Trong tim anh lâu nay chỉ toàn dối gian
+Đêm nay bật khóc, biết trót yêu người sai lầm
+Đánh mất đi bản thân vì nhiều điều anh từng nói
+Hãy giả vờ quên tên em, để em thứ tha cho bản thân vội vàng
+Cho trái tim em nơi này,
+con 27, con 27, con 27.`,
+
+  28: `Đèn lên, nhạc lên, hội chợ lên luôn
+Số 28 xuất hiện, hên xui tới liền.
+Số 28.`,
+  29: `Tùng tùng… một nhịp rồi hai nhịp
+Số 29 ra rồi, ai có thì reo.
+Số 29.`,
+
+  30: `Cô ơi cô
+cô đừng đi lấy chồng
+về Tây Đô bên dòng sông
+tui ngồi hát cô nghe
+Trời ơi!
+cô đừng đi lấy chồng
+để 2 thằng buồn bên bài hát lý cây bông
+Con số ba 0, số 30.`,
+
+  31: `Cái nhà em dột, cái cột em siêu,
+mướn thợ cho nhiều về xây cho tốt,
+ba mươi mốt. Số 31.`,
+
+  32: `Quay đều tay, nghe trống dồn dập
+Số 32 xuất hiện, chúc ai cũng trúng.
+Số 32.`,
+
+  33: `Khi xưa Alibaba như vầng trăng sáng chiếu trên trần gian (Alibaba).
+Hôm nay Alibaba như chàng dũng sĩ hát vang lời ca (Alibaba).
+Số 33.`,
+
+  34: `Tề Thiên Đại Thánh đại náo thiên cung bị đứt dây thun tụt quần mà chạy trốn.
+Là Con 34.`,
+
+  35: `Hội chợ đông vui, tiếng cười rộn rã
+Số 35 ra rồi, giữ chặt vận may.
+Số 35.`,
+  36: `Trống gõ ba hồi, số về một cái
+Số 36 xuất hiện, ai có thì lên.
+Số 36.`,
+  37: `Nghe trống dồn dập, tim đập rộn ràng
+Số 37 ra mặt, chúc bà con hên.
+Số 37.`,
+  38: `Quay tiếp quay tiếp, đừng chớp mắt nha
+Số 38 về rồi, lộc ghé liền tay.
+Số 38.`,
+  39: `Một nhịp trống vang, hai nhịp trống dồn
+Số 39 xuất hiện, thắng lớn bà con.
+Số 39.`,
+
+  40: `Nông sâu tùy sông làm sao mà trông
+Đời người con gái không muốn yêu ai được không.
+Số bốn không. Số 40.`,
+
+  41: `Đêm hội chợ vui, số về thiệt nhanh
+Số 41 ra rồi, ai có thì cười.
+Số 41.`,
+  42: `Tùng tùng… tiếng trống gọi mời
+Số 42 xuất hiện, may mắn tới nơi.
+Số 42.`,
+  43: `Bốn phương trời ta về đây chung vui
+Anh em ta một nhà, cười vang hội chợ
+Số bốn mươi ba, số 43.`,
+  44: `Hội chợ vang vang, trống kêu rộn rã
+Số 44 xuất hiện, nắm thời cơ nha.
+Số 44.`,
+
+  45: `Em đi trên cỏ non mọc ôm đôi bờ đường đê
+Em che nghiêng nón lá, chân rụt rè qua nhịp cầu tre
+Quê hương em ở ngoại thành, xóm nhà tranh
+Em đi qua mấy sông, vượt mấy đèo
+Dẫu trèo lên đỉnh cao mấy núi cũng lặn lội về thăm.
+Số 45.`,
+
+  46: `Trống lô tô dồn, ai cũng ngóng chờ
+Số 46 ra rồi, hên tới bất ngờ.
+Số 46.`,
+
+  47: `Nhảy đi nhảy đi tăng tăng tăng tằng tắng tằng tằng tằng,
+nhảy đi nhảy đi, con 47 :).`,
+
+  48: `Một vòng quay nữa, số liền theo sau
+Số 48 xuất hiện, chúc ai cũng hên.
+Số 48.`,
+  49: `Tiếng trống vang xa, sân khấu sáng đèn
+Số 49 ra rồi, vui lên bà con.
+Số 49.`,
+
+  50: `Ai mua sầu riêng có ai mua sầu riêng hãy dừng chân ghé quán em.
+Em đây bán trái sầu riêng nhưng em không bán tình duyên,
+Con năm nguyên. Số 50.`,
+
+  51: `Tùng tùng… tới số rồi nha
+Số 51 xuất hiện, lộc tới gần nhà.
+Số 51.`,
+  52: `Quay đều tay, đừng ai chớp mắt
+Số 52 ra rồi, ai có thì lên.
+Số 52.`,
+  53: `Hội chợ rộn ràng, trống giục liên hồi
+Số 53 xuất hiện, chúc bạn trúng to.
+Số 53.`,
+
+  54: `Phải rủ đi chơi tối nay rồi
+Gặp lại để xem có còn thích hay thôi rồi
+Rộn ràng thợ săn nhắm con mồi
+Bọn mình đi đâu, đi anh ơi, đi đu đưa đi
+Lúc đi hết mình, lúc về hết hồn.
+Con số 54.`,
+
+  55: `Tân Châu nổi tiếng nhà bè,
+núi Sam nổi tiếng hội hè quanh năm.
+Số 55.`,
+
+  56: `Trống gõ một hồi, số ra một cái
+Số 56 xuất hiện, may mắn đong đầy.
+Số 56.`,
+  57: `Tùng tùng tùng… nghe cho rõ nè
+Số 57 ra rồi, ai có thì reo.
+Số 57.`,
+  58: `Sân khấu sáng trưng, hội chợ đông vui
+Số 58 xuất hiện, chúc bà con hên.
+Số 58.`,
+  59: `Một vòng quay nữa, số tới liền tay
+Số 59 ra rồi, phát tài phát lộc.
+Số 59.`,
+  60: `Tiếng trống dồn dập, tim ai cũng hồi hộp
+Số 60 xuất hiện, chúc bạn thắng lớn.
+Số 60.`,
+  61: `Quay quay quay… rồi dừng ngay nha
+Số 61 về rồi, vui quá bà con.
+Số 61.`,
+  62: `Trống kêu rộn rã, số ra liền tay
+Số 62 xuất hiện, giữ chặt vận may.
+Số 62.`,
+  63: `Lắng nghe tiếng trống gọi mời
+Số 63 ra rồi, hên tới tận nơi.
+Số 63.`,
+  64: `Hội chợ đông vui, đèn lên rực rỡ
+Số 64 xuất hiện, ai có thì cười.
+Số 64.`,
+  65: `Tùng tùng… thêm một nhịp nữa
+Số 65 ra rồi, chúc bạn trúng to.
+Số 65.`,
+  66: `Trống dồn dập quá, số ra thiệt nhanh
+Số 66 xuất hiện, lộc tới liền tay.
+Số 66.`,
+  67: `Quay đều tay, số về ầm ầm
+Số 67 ra rồi, ai có thì lên.
+Số 67.`,
+  68: `Sân khấu sáng đèn, hội chợ rộn ràng
+Số 68 xuất hiện, chúc bà con hên.
+Số 68.`,
+  69: `Tùng tùng tùng… nghe cho rõ
+Số 69 ra rồi, vui quá trời vui.
+Số 69.`,
+  70: `Một vòng quay nữa, số tới liền ngay
+Số 70 xuất hiện, phát tài phát lộc.
+Số 70.`,
+  71: `Trống gõ ba hồi, số về một cái
+Số 71 ra rồi, ai có thì reo.
+Số 71.`,
+  72: `Hội chợ vui quá, số ra rộn ràng
+Số 72 xuất hiện, chúc bạn trúng to.
+Số 72.`,
+  73: `Quay quay quay… dừng lại cho nóng
+Số 73 ra rồi, hên tới bất ngờ.
+Số 73.`,
+  74: `Tiếng trống vang vang, đèn sáng lung linh
+Số 74 xuất hiện, vui lên bà con.
+Số 74.`,
+  75: `Tùng tùng… tới số rồi nha
+Số 75 ra rồi, lộc ghé cửa nhà.
+Số 75.`,
+  76: `Trống dồn dập quá, số ra thiệt nhanh
+Số 76 xuất hiện, ai có thì lên.
+Số 76.`,
+  77: `Hội chợ rộn ràng, trống giục liên hồi
+Số 77 ra rồi, chúc bạn phát tài.
+Số 77.`,
+  78: `Quay đều tay, số về liền đây
+Số 78 xuất hiện, chúc bà con hên.
+Số 78.`,
+  79: `Tùng tùng tùng… nghe cho rõ
+Số 79 ra rồi, vui quá bà con.
+Số 79.`,
+  80: `Một vòng quay nữa, số tới liền tay
+Số 80 xuất hiện, phát tài phát lộc.
+Số 80.`,
+  81: `Trống gõ một hồi, số ra một cái
+Số 81 ra rồi, ai có thì reo.
+Số 81.`,
+  82: `Hội chợ sáng đèn, tiếng cười rộn rã
+Số 82 xuất hiện, chúc bạn trúng to.
+Số 82.`,
+  83: `Quay quay quay… dừng lại cho nóng
+Số 83 ra rồi, hên tới bất ngờ.
+Số 83.`,
+  84: `Tiếng trống vang vang, đèn sáng lung linh
+Số 84 xuất hiện, vui lên bà con.
+Số 84.`,
+  85: `Tùng tùng… tới số rồi nha
+Số 85 ra rồi, lộc ghé cửa nhà.
+Số 85.`,
+  86: `Trống dồn dập quá, số ra thiệt nhanh
+Số 86 xuất hiện, ai có thì lên.
+Số 86.`,
+  87: `Hội chợ rộn ràng, trống giục liên hồi
+Số 87 ra rồi, chúc bạn phát tài.
+Số 87.`,
+  88: `Quay đều tay, số về liền đây
+Số 88 xuất hiện, chúc bà con hên.
+Số 88.`,
+  89: `Tùng tùng tùng… nghe cho rõ
+Số 89 ra rồi, vui quá bà con.
+Số 89.`,
+  90: `Một vòng quay nữa, khép lại đêm vui
+Số 90 xuất hiện, chúc bà con thắng lớn.
+Số 90.`,
 }

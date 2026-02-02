@@ -2,7 +2,7 @@
 
 import { BackgroundMusic } from './BackgroundMusic'
 import { useState, useCallback, useRef, useEffect } from 'react'
-import { lotoPhrases } from '@/data/lotoPhrases'
+import { lotoPhrases } from '@/data/lyCayBong'
 
 const MIN_SPEED_MS = 400
 const MAX_SPEED_MS = 2000
